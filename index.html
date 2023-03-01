@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body>
+        <form action="fpaulinofilho04@gmail.com" method="get">
+            <label for="Nome">Nome</label><br>
+            <input type="text" placeholder="Enter your name" required="required" name="Nome" size="25"><br>
+            <br>
+            <label for="Email">Email</label><br>
+            <input type="text" placeholder="Enter your Email" required="required" name="Email" size="25"><br>
+            <br>
+            <label for="Idade">Idade</label><br>
+            <input type="text" placeholder="Age" name="Idade" size="25"><br>
+            <br>
+            <label>Qual opção melhor descreve sua ocupação?</label><br>
+            <br>
+            <div class="Opções">
+                <select>
+                        <option class="list">Estudante
+                        <option class="list">Trabalhador em tempo integral
+                        <option class="list">Aluno em tempo integral
+                        <option class="list">Prefiro não dizer
+                        <option class="list">Outros
+                </select>
+            </div>
+            <label>Você recomendaria o freeCodeCamp a um amigo?</label><br>
+            <br>
+            <input type="checkbox" name="Opção1">Definivamente<br>
+            <input type="checkbox" name="Opção2">Talvez<br>
+            <input type="checkbox" name="Opção3">Não tenho certeza<br>
+            <br>
+            <label>Qual seu recurso favorito do freeCodeCamp?</label><br>
+            <br>
+            <div>
+                <select>
+                        <option>Desafios
+                        <option>Trabalhador em tempo integral
+                        <option>Aluno em tempo integral
+                        <option>Prefiro não dizer
+                        <option>Outros
+                </select>
+            </div>
+            <br>
+            <label>O que você gostaria de ver melhorado?</label>
+            <div class="Opções">
+                <br>
+                <input type="checkbox" name="Opção1">Projetos front-end<br>
+                <input type="checkbox" name="Opção2">Projetos back-end<br>
+                <input type="checkbox" name="Opção3">Visualização de dados<br>
+                <input type="checkbox" name="Opção4">Desafios<br>
+                <input type="checkbox" name="Opção5">Comunidade de código aberto<br>
+                <input type="checkbox" name="Opção6">Salas de ajuda Gitter<br>
+                <input type="checkbox" name="Opção7">Vídeos<br>
+                <input type="checkbox" name="Opção8">Encontros na cidade<br>
+                <input type="checkbox" name="Opção9">Wiki<br>
+                <input type="checkbox" name="Opção10">Fórum<br>
+                <input type="checkbox" name="Opção11">Cursos adicinais<br>
+            </div>
+            <br>
+            <label>Algum comentário ou sugestão?</label><br>
+            <textarea nome="comentários" placeholder="Digite algum comentário aqui" rows="10" cols="30"></textarea><br>
+            <label><INPUT TYPE = submit value= "Enviar" > <INPUT TYPE = reset value = "Limpar formulário"></label>
+        </form>
+    </body>
+</html>
